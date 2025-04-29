@@ -2,7 +2,6 @@
 
 A simple  blockchain-based voting system application built from scratch by Python. It's available for running with multipeer.
 
-
 ## How it looks
 
 ![alt tag](https://raw.githubusercontent.com/ngocjr7/voting-blockchain/master/docs/sample.png)
@@ -111,7 +110,7 @@ Vosy need to know aleast 1 peer so you need to pass peer ip address to vosy app 
 python vosy_app/vosy.py
 ```
 
-##### for example, with window users, ip address `0.0.0.0` is not available, so you need to run in `127.0.0.1` instead, so you have to follow this command in 4 cmd:
+for example, with window users, ip address `0.0.0.0` is not available, so you need to run in `127.0.0.1` instead, so you have to follow this command in 4 cmd:
 
 ```
 python bcb_server/orderer.py
